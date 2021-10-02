@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:padding="0dp"
+    android:background="@color/white"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:padding="5dp"
+        android:background="@drawable/bg_lv_item_score"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+    <TextView
+        android:text="User"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/josefinsans_bold"
+        android:textSize="20dp"
+        android:id="@+id/txt_user_rank_lv"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_marginLeft="50dp"
+        android:text="Score"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/josefinsans_bold"
+        android:textSize="20dp"
+        android:id="@+id/txt_score_rank_lv"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_marginLeft="50dp"
+        android:text="Thể Loại"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/josefinsans_bold"
+        android:textSize="20dp"
+        android:id="@+id/txt_theloai_rank_lv"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:text="Chế độ"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/josefinsans_bold"
+        android:textSize="20dp"
+        android:id="@+id/txt_chedo_rank_lv"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+
+</LinearLayout>

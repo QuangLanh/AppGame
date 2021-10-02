@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#ffeb99"
+    tools:context=".WelcomeScreen.MainActivity">
+
+ <ImageView
+     android:id="@+id/background_image"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:src="@drawable/logo_toni"
+     tools:ignore="MissingConstraints"
+     tools:layout_editor_absoluteX="16dp"
+     tools:layout_editor_absoluteY="0dp"></ImageView>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="0%"
+    android:textColor="#ff9900"
+    android:textSize="25dp"
+    android:fontFamily="@font/quantum_profit"
+    android:id="@+id/textloand"
+    android:layout_centerHorizontal="true"
+    android:layout_above="@+id/loand"
+    tools:ignore="UnknownId">
+
+</TextView>
+
+ <ProgressBar
+     android:id="@+id/loand"
+     style="@android:style/Widget.ProgressBar.Horizontal"
+     android:layout_width="match_parent"
+     android:layout_height="4dp"
+     android:layout_alignParentBottom="true"
+     android:layout_marginTop="20dp"
+     android:layout_marginBottom="20dp"></ProgressBar>
+
+</RelativeLayout>

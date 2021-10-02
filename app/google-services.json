@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "993239208035",
+    "firebase_url": "https://project-gamefunquiz-default-rtdb.firebaseio.com",
+    "project_id": "project-gamefunquiz",
+    "storage_bucket": "project-gamefunquiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993239208035:android:dceee4b8463aa7b7002856",
+        "android_client_info": {
+          "package_name": "com.example.duan1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993239208035-44563k91g8shkahj5tb4j7srp14ef6tp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE5mqIj-Ky5pn1_BWFeKAtOO42OzZcQb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993239208035-44563k91g8shkahj5tb4j7srp14ef6tp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

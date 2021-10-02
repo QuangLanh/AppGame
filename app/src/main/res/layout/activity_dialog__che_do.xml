@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_bg"
+    android:padding="20dp"
+    android:layout_gravity="center"
+    tools:context=".Dialog.Dialog_CheDo">
+    <TextView
+        android:fontFamily="@font/quantum_profit"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn Mức Độ:"
+        android:textSize="30sp"
+        android:layout_gravity="center">
+    </TextView>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:background="@drawable/button_theloai"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dễ"
+            android:id="@+id/btnDe">
+        </Button>
+        <Button
+            android:background="@drawable/button_theloai"
+            android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Khó"
+        android:id="@+id/btnKho">
+    </Button>
+    </LinearLayout>
+
+
+</LinearLayout>

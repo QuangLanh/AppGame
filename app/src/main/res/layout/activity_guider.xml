@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuideScreen.GuiderActivity"
+    android:background="#ffeb99">
+    
+    <ImageView
+        android:id="@+id/logoguider"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/logo_toni"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="150dp"></ImageView>
+
+    <TextView
+        android:id="@+id/sloganguider"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Funny Quiz"
+        android:fontFamily="@font/quantum_profit"
+        android:textSize="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="400dp"></TextView>
+
+    <TextView
+        android:id="@+id/tvxemhuongdan"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Xem hướng dẫn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/black"
+        android:background="@drawable/retangle_white"
+        android:layout_marginBottom="50dp"
+        android:paddingStart="20dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:drawableEnd="@drawable/next_guider"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="20dp"
+        android:drawableRight="@drawable/next_guider"></TextView>
+
+
+</RelativeLayout>

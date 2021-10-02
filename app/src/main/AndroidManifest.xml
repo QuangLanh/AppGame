@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.duan1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_toni"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Fragment.RankActivity"></activity>
+        <activity android:name=".Fragment.KetQuaActivity" />
+        <activity android:name=".Fragment.DiaLy.TracNghiemDiaLy_Easy_Activity" />
+        <activity android:name=".Fragment.DiaLy.TracNghiemDiaLy_Hard_Activity" />
+        <activity android:name=".Fragment.DoMeo.TracNghiemDoMeo_Easy_Activity" />
+        <activity android:name=".Fragment.DoMeo.TracNghiemDoMeo_Hard_Activity"></activity>
+        <activity android:name=".Fragment.PhimAnh.TracNghiemPhimAnh_Easy_Activity" />
+        <activity android:name=".Fragment.PhimAnh.TracNghiemPhimAnh_Hard_Activity" />
+        <activity android:name=".Fragment.Nhac.TracNghiemNhac_Easy_Activity" />
+        <activity android:name=".Fragment.Nhac.TracNghiemNhac_Hard_Activity" />
+        <activity android:name=".Fragment.Game.TracNghiemGame_Easy_Activity" />
+        <activity android:name=".Fragment.Game.TracNghiemGame_Hard_Activity"></activity>
+        <activity android:name=".Fragment.TheThao.TracNghiemTheThao_Easy_Activity" />
+        <activity android:name=".Fragment.TheThao.TracNghiemTheThao_Hard_Activity" />
+        <activity android:name=".Dialog.Dialog_CheDo" />
+        <activity android:name=".TheLoaiScreen.TheLoaiActivity" />
+        <activity android:name=".GuideScreen.SlideActivity" />
+        <activity android:name=".GuideScreen.GuiderActivity" />
+        <activity android:name=".MainScreen.MHCActivity" />
+        <activity android:name=".WelcomeScreen.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginScreen.LoginScreen" />
+
+        <service
+            android:name=".Service.Sevice_media"
+            android:enabled="true" />
+        <service
+            android:name=".Service.Sevice_media_nhacnnen_amnhac"
+            android:enabled="true" />
+    </application>
+
+</manifest>
